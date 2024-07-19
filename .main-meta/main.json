@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Interfacing External Sensor Modules with PIC18F56Q24 Microcontroller using MVIO",
         "projectName": "pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc",
-        "shortDescription": "This example highlights usage of MVIO feature in the PIC18-Q24 MCU family for applications that involve external sensor modules operating at a different voltage than the microcontroller. Compatible PIC18-Q24 family of MCUs: PIC18F56/55/46/45/26/25/24Q24.",
+        "shortDescription": "This example highlights usage of MVIO feature in the PIC18-Q24 MCU family for applications that involve external sensor modules operating at a different voltage than the microcontroller. Compatible PIC18-Q24 family of MCUs:PIC18F56/55/46/45/26/25/24Q24.",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.20.0"
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "1.25.433"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=5.5.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,9 +36,21 @@
                 "versionRange": "*"
             }
         },
-        "author": "Prasad Aradhya",
-        "peripherals": [],
-        "keywords": [],
+        "author": "Amey Panse",
+        "peripherals": [
+				"SPI",
+				"I2C",
+				"UART",
+				"ADCC",
+				"DMA",
+				"MVIO"
+				],
+        "keywords": [
+				"Curiosity Nano",
+				"Melody",
+				"Multi-Voltage I/O",
+				"VDDIO2"
+				],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
