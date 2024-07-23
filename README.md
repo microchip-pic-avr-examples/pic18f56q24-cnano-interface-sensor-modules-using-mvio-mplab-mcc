@@ -60,7 +60,7 @@ The following tools are used for this demo application:
 The GPS 3 Click board provides users with positioning, navigation, and timing features. This Click board is interfaced with the microcontroller using the UART interface.
 
 <p align="center">
-  <img width=auto height=auto src="images/gpsclick.png">
+  <img width=400 height=200 src="images/gpsclick.png">
   <br>Figure 2: GPS3 Click Board<br>
 </p>
 
@@ -69,7 +69,7 @@ The GPS 3 Click board provides users with positioning, navigation, and timing fe
 The SHT Click is a compact board for high reliability and long-term stability for measuring humidity and temperature, which uses the [SHT31-DIS](https://sensirion.com/products/catalog/SHT31-DIS-B/) sensor. This Click board is interfaced with the microcontroller using the I<sup>2</sup>C interface.
 
 <p align="center">
-  <img width=auto height=auto src="images/shtclick.png">
+  <img width=400 height=200 src="images/shtclick.png">
   <br>Figure 3: SHT Click Board<br>
 </p>
 
@@ -78,7 +78,7 @@ The SHT Click is a compact board for high reliability and long-term stability fo
 The UV Click board is used for sending an alert to the users indicating excessive ultraviolet (UV) radiation levels. This Click board is interfaced with the microcontroller using the SPI interface.
 
 <p align="center">
-  <img width=auto height=auto src="images/uvclick.png">
+  <img width=400 height=200 src="images/uvclick.png">
   <br>Figure 4: UV Click Board<br>
 </p>
 
@@ -89,7 +89,7 @@ The UV Click board is used for sending an alert to the users indicating excessiv
 The PIC18F56Q24 Curiosity Nano and Curiosity Nano Base for Click Boards are used as a development platform. The Curiosity Nano Base board is used to interface the UV, GPS3 and SHT Clicks with the PIC18F56Q24 microcontroller using the mikroBUS slots 1, 2 and 3 respectively.
 
 <p align="center">
-  <img width=auto height=auto src="images/hardwaresetup.png">
+  <img width=500 height=500 src="images/hardwaresetup.png">
   <br>Figure 5: Hardware Setup<br>
 </p>
 
