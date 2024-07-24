@@ -23,9 +23,9 @@ The code example intends to display the usage of the MVIO interface of the PIC18
 
 ## Description
 
-The code example uses a UV click, GPS click and SHT click, which communicate with the PIC18F56Q24 microcontroller using SPI, UART and I<sup>2</sup>C communication interfaces, respectively. These Click boards<sup>™</sup> are powered by a 2.8V supply, while the PIC18F56Q24 microcontroller is powered by a 5V supply. However, the microcontroller pins with MVIO interface capability, used for interfacing the Click boards, are powered by 2.8V through the V<sub>DDIO2</sub> pin. The block diagram below shows an overview of the various microcontroller peripherals used in this code example and the pins configured for interfacing with the  Click board. The Data Visualizer tool is used to interact with users, accept user inputs and transmit them to the microcontroller over a UART interface. Additionally, it is used to display the data requested by the user on its terminal window.
+The code example uses a UV click, GPS click and SHT click, which communicate with the PIC18F56Q24 microcontroller using SPI, UART and I<sup>2</sup>C communication interfaces, respectively. These Click Boards<sup>™</sup> are powered by a 2.8V supply, while the PIC18F56Q24 microcontroller is powered by a 5V supply. However, the microcontroller pins with MVIO interface capability, used for interfacing the Click Boards, are powered by 2.8V through the V<sub>DDIO2</sub> pin. The block diagram below shows an overview of the various microcontroller peripherals used in this code example and the pins configured for interfacing with the  Click Board. The Data Visualizer tool is used to interact with users, accept user inputs and transmit them to the microcontroller over a UART interface. Additionally, it is used to display the data requested by the user on its terminal window.
 
-The application firmware continuously monitors the supply voltage on the V<sub>DDIO2</sub> pin of the microcontroller and checks for valid user input if the voltage detected on the V<sub>DDIO2</sub> pin is within the permissible operating voltage range of the Click boards. Based on the received user input, the application requests data from the respective Click board, through the serial communication interface and displays the received data on the terminal window of the Data Visualizer tool. If the voltage detected on the V<sub>DDIO2</sub> pin is outside the recommended operating voltage of the Click boards, then the application prompts the user to supply a recommended voltage on the V<sub>DDIO2</sub> pin. Similarly, if the user-entered input data is invalid, then the application prompts the user to input valid data.
+The application firmware continuously monitors the supply voltage on the V<sub>DDIO2</sub> pin of the microcontroller and checks for valid user input if the voltage detected on the V<sub>DDIO2</sub> pin is within the permissible operating voltage range of the Click Boards. Based on the received user input, the application requests data from the respective Click Board, through the serial communication interface and displays the received data on the terminal window of the Data Visualizer tool. If the voltage detected on the V<sub>DDIO2</sub> pin is outside the recommended operating voltage of the Click Boards, then the application prompts the user to supply a recommended voltage on the V<sub>DDIO2</sub> pin. Similarly, if the user-entered input data is invalid, then the application prompts the user to input valid data.
 
 <p align="center">
   <img width=auto height=auto src="images/blkdiagram.png">
@@ -54,39 +54,39 @@ The following tools are used for this demo application:
 ## Hardware Used
 
 * [PIC18F56Q24 Curiosity Nano board](https://www.microchip.com/en-us/development-tool/EV01E86A")
-* [Curiosity Nano base for Click boards](https://www.microchip.com/developmenttools/ProductDetails/AC164162)
+* [Curiosity Nano base for Click Boards](https://www.microchip.com/developmenttools/ProductDetails/AC164162)
 * [GPS3 Click](https://www.mikroe.com/gps-3-click)
 
-The GPS 3 Click board provides users with positioning, navigation and timing features. This Click board is configured to communicate with the microcontroller via the UART interface.
+The GPS 3 Click Board provides users with positioning, navigation and timing features. This Click Board is configured to communicate with the microcontroller via the UART interface.
 
 <p align="center">
   <img width=defaultoutput height=defaultoutput src="images/gpsClick.png">
-  <br>Figure 2: GPS3 Click board<br>
+  <br>Figure 2: GPS3 Click Board<sup>™</sup><br>
 </p>
 
 * [SHT Click](https://www.mikroe.com/sht-click)
 
-The SHT Click is a compact board designed to deliver high reliability and long-term stability for measuring humidity and temperature, which uses the [SHT31-DIS](https://sensirion.com/products/catalog/SHT31-DIS-B/) sensor. This Click board is configured to communicate with the microcontroller via the I<sup>2</sup>C interface.
+The SHT Click is a compact board designed to deliver high reliability and long-term stability for measuring humidity and temperature, which uses the [SHT31-DIS](https://sensirion.com/products/catalog/SHT31-DIS-B/) sensor. This Click Board is configured to communicate with the microcontroller via the I<sup>2</sup>C interface.
 
 <p align="center">
   <img width=defaultoutput height=defaultoutput src="images/shtClick.png">
-  <br>Figure 3: SHT Click board<br>
+  <br>Figure 3: SHT Click Board<sup>™</sup><br>
 </p>
 
 * [UV Click](https://www.mikroe.com/uv-click)
 
-The UV Click board is used for sending an alert to the users indicating excessive ultraviolet (UV) radiation levels. This Click board is configured to communicate with the microcontroller via the SPI interface.
+The UV Click Board is used for sending an alert to the users indicating excessive ultraviolet (UV) radiation levels. This Click Board is configured to communicate with the microcontroller via the SPI interface.
 
 <p align="center">
   <img width=defaultoutput height=defaultoutput src="images/uvClick.png">
-  <br>Figure 4: UV Click board<br>
+  <br>Figure 4: UV Click Board<sup>™</sup><br>
 </p>
 
 * Female-Female Jumper cables
 
 ## Hardware Setup
 
-The PIC18F56Q24 Curiosity Nano and Curiosity Nano Base for Click boards are used as a development platform. The Curiosity Nano Base board is used to interface the UV, GPS3 and SHT Clicks with the PIC18F56Q24 microcontroller using the mikroBUS<sup>™</sup> slots 1, 2 and 3, respectively.
+The PIC18F56Q24 Curiosity Nano and Curiosity Nano Base for Click Boards are used as a development platform. The Curiosity Nano Base board is used to interface the UV, GPS3 and SHT Clicks with the PIC18F56Q24 microcontroller using the mikroBUS<sup>™</sup> slots 1, 2 and 3, respectively.
 
 <p align="center">
   <img width=800 height=500 src="images/hardwaresetup.png">
@@ -95,9 +95,9 @@ The PIC18F56Q24 Curiosity Nano and Curiosity Nano Base for Click boards are used
 
 ## Pin Connections
 
-The Click boards along with the MVIO pins of PIC18F56Q24 microcontroller which are used for serial communication, are supplied with 2.8V through the V<sub>DDIO2</sub> pin and by using an external bench power supply. The table below shows the necessary connections between the PIC18F56Q24 microcontroller and the Click boards. Connect the PIC18F56Q24 Curiosity Nano board and the Click boards using female-female jumper wires.
+The Click Boards along with the MVIO pins of PIC18F56Q24 microcontroller which are used for serial communication, are supplied with 2.8V through the V<sub>DDIO2</sub> pin and by using an external bench power supply. The table below shows the necessary connections between the PIC18F56Q24 microcontroller and the Click Boards. Connect the PIC18F56Q24 Curiosity Nano board and the Click Boards using female-female jumper wires.
 
-| Signal Description                                                                                 | MCU Pin  | Click board Pin Description | Sensor Details             |
+| Signal Description                                                                                 | MCU Pin  | Click Board<sup>™</sup> Pin Description | Sensor Details             |
 |----------------------------------------------------------------------------------------------------|----------|-----------------------------|----------------------------|
 | SPI2 (SS)                                                                                          | RD1      | SS                          | UV Click mikroBUS Slot 1   |
 | SPI2 (MISO/SDI)                                                                                    | RD1      | MOSI                        | UV Click mikroBUS Slot 1   |
@@ -113,8 +113,8 @@ The Click boards along with the MVIO pins of PIC18F56Q24 microcontroller which a
 
 
 **Notes:**
-1. The Curiosity Nano Base Board can supply either 3.3V or 5V to the three mikroBUS slots through its power supply circuitry. Since it is not possible to power the Click boards with 2.8V using the Curiosity Nano Base board power circuitry, isolate the 5V and 3.3V pins on the Click boards from the Curiosity Nano Base board power circuitry, by removing the male pins from the pin header of the Click boards.
-2. Supply 2.8V to the Click boards and V<sub>DDIO2</sub> pin of the microcontroller through an external power supply and using female-female jumper wires
+1. The Curiosity Nano Base Board can supply either 3.3V or 5V to the three mikroBUS slots through its power supply circuitry. Since it is not possible to power the Click Boards with 2.8V using the Curiosity Nano Base board power circuitry, isolate the 5V and 3.3V pins on the Click Boards from the Curiosity Nano Base board power circuitry, by removing the male pins from the pin header of the Click Boards.
+2. Supply 2.8V to the Click Boards and V<sub>DDIO2</sub> pin of the microcontroller through an external power supply and using female-female jumper wires.
 
 
 ## Demonstration Setup
@@ -131,7 +131,7 @@ The below figure shows the firmware flow of the code example.
 </p>
 
 
-## Details for Communication with Click boards<sup>™</sup>
+## Details for Communication with Click Boards<sup>™</sup>
 
 ### Communication with SHT Click
 
@@ -177,7 +177,7 @@ The data captured by the sensor is displayed in its raw form and verified if it 
 
 ## Operation
 
-1.	Interfacing External Sensor Modules with PIC18F56Q24 Microcontroller using MVIO demonstration needs input from the user in the form of numbers to perform the defined functionality. The user gets an option to select input to provide respective functionalities depending on the input provided as seen in the firmware flowchart.
+1.	The demo needs input from the user in the form of numbers to perform the defined functionality. The user gets an option to select input to provide respective functionalities depending on the input provided as seen in the firmware flowchart.
 2.	The hardware connections are made as shown in the Hardware Setup. Power up the Curiosity Nano Adapter board using the micro USB cable and provide external power to the MVIO pins via V<sub>DDIO2</sub>.
 3.	Download the firmware available from the GitHub page link.
 4.	Build the project using the latest version of tools as mentioned in the Software Tools section and load the generated hexadecimal file to the PIC18F56Q24 microcontroller.
@@ -195,25 +195,25 @@ The data captured by the sensor is displayed in its raw form and verified if it 
   <br>Figure 9: I<sup>2</sup>C Sensor Output<br>
 </p>
 
-7.	Enter 'B' to see the output displayed as shown below
+7.	Enter 'B' to see the output displayed as shown below.
 
 <p align="center">
   <img width=auto height=auto src="images/uartoutput1.png">
   <br>Figure 10: UART Sensor Output<br>
 </p>
 
-8.	Enter 'C' to see the output displayed as shown below
+8.	Enter 'C' to see the output displayed as shown below.
 
 <p align="center">
   <img width=auto height=auto src="images/spioutput.png">
   <br>Figure 11: SPI Sensor Output<br>
 </p>
 
-9.	Enter 'D' to see the output displayed as shown below
+9.	Enter 'D' to see the output displayed as shown below.
 
 <p align="center">
   <img width=auto height=auto src="images/vddiooutput.png">
-  <br>Figure 12: V,sub>DDIO2</sub> Operating Voltage Output<br>
+  <br>Figure 12: V<sub>DDIO2</sub> Operating Voltage Output<br>
 </p>
 
 10.	Enter anything other than the provided inputs to see the output displayed as shown below.
