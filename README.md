@@ -17,6 +17,7 @@ The code example intends to display the usage of the MVIO interface of the PIC18
 ## Related Documentation
 
 * [Getting Started with Multi-Voltage I/O (MVIO)](https://ww1.microchip.com/downloads/en/Appnotes/GettingStarted-MVIO-AVRDB-DS90003287A.pdf)
+* [PIC1856Q24 Product Page](https://www.microchip.com/en-us/product/pic18f56q24?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC18-Q26&utm_content=pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc-github&utm_bu=MCU08) 
 * [PIC18-Q24 Family Page](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/pic-mcus/pic18-q24?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC18-Q24&utm_content=pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc-github&utm_bu=MCU08)
 * [PIC18F56Q24 Data Sheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F26-45-46-55-56Q24-Microcontroller-Data-Sheet-XLP-DS40002503.pdf)
 * [PIC18F56Q24 Code Examples on MPLAB<sup>®</sup> Discover](https://mplab-discover.microchip.com/v2?dsl=PIC18F56Q24)
@@ -54,7 +55,7 @@ The following tools are used for this demo application:
 ## Hardware Used
 
 * [PIC18F56Q24 Curiosity Nano board](https://www.microchip.com/en-us/development-tool/EV01E86A?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC18-Q24&utm_content=pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc-github&utm_bu=MCU08)
-* [Curiosity Nano base for Click Boards](https://www.microchip.com/developmenttools/ProductDetails/AC164162)
+* [Curiosity Nano base for Click Boards](https://www.microchip.com/en-us/development-tool/AC164162?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC18-Q25&utm_content=pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc-github&utm_bu=MCU08)
 * [GPS3 Click](https://www.mikroe.com/gps-3-click)
 
 The GPS 3 Click Board provides users with positioning, navigation and timing features. This Click Board is configured to communicate with the microcontroller via the UART interface.
