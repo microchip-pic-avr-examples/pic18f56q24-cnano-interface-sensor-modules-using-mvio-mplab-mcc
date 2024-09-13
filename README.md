@@ -42,9 +42,8 @@ The following tools are used for this demo application:
 * [MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC18-Q24&utm_content=pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc-github&utm_bu=MCU08) v6.20 or newer
 * [XC8 compiler](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC18-Q24&utm_content=pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc-github&utm_bu=MCU08) v2.50 or newer
 * [MPLAB® Code Configurator (MCC)](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC18-Q24&utm_content=pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc-github&utm_bu=MCU08) v5.7.1 or newer
-* [MPLAB® Data Visualizer 1.3.1665](https://www.microchip.com/en-us/tools-resources/debug/mplab-data-visualizer) or newer
 * [Microchip PIC18F-Q Series Device Support](https://packs.download.microchip.com) 1.25.433 or newer
-* [Data Visualizer](https://www.microchip.com/en-us/tools-resources/debug/mplab-data-visualizer?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC18-Q24&utm_content=pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc-github&utm_bu=MCU08) v1.3.1665 or newer
+* [MPLAB® Data Visualizer](https://www.microchip.com/en-us/tools-resources/debug/mplab-data-visualizer?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC18-Q24&utm_content=pic18f56q24-cnano-interface-sensor-modules-using-mvio-mplab-mcc-github&utm_bu=MCU08) v1.3.1665 or newer
 * ADCC MCC Melody Driver 1.0.6
 * SPI MCC Melody Driver 1.2.0
 * DMA Driver 1.1.1
